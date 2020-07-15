@@ -8,7 +8,7 @@ def make_combos_add(num_list):
     """Takes a list of objects and outputs a list of all possible addition combinations
         of those objects. 
         input:
-            num_list: ideally, a list of numbers (int or float, positive or negative) but can also be a str
+            num_list: a list of numbers (int or float, positive or negative)
         output:
             additions: list of numbers (int or float, positive or negative)"""
     additions = []
