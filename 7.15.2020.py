@@ -4,7 +4,7 @@ Created on Wed Jul 15 10:59:58 2020
 
 @author: Amanda Aparicio
 """ 
-def make_additions(num_list):
+def make_combos_add(num_list):
     """Takes a list of numbers and outputs a list of all possible addition combinations
         of those numbers. 
         input:
@@ -32,7 +32,10 @@ def compare_additions(num_list, k):
         True or False (boolean)
     """
     try:
-        all_add_combos = make_additions(num_list)
+        float(k) #make sure that the inputs are numbers
+        for ele in num_list: 
+            float(ele)
+        all_add_combos = make_combos_add(num_list)
         if (k in all_add_combos):
             return True
         else:
