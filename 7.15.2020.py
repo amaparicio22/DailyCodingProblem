@@ -5,10 +5,10 @@ Created on Wed Jul 15 10:59:58 2020
 @author: Amanda Aparicio
 """ 
 def make_combos_add(num_list):
-    """Takes a list of numbers and outputs a list of all possible addition combinations
-        of those numbers. 
+    """Takes a list of objects and outputs a list of all possible addition combinations
+        of those objects. 
         input:
-            num_list: list of numbers (int or float, positive or negative)
+            num_list: ideally, a list of numbers (int or float, positive or negative) but can also be a str
         output:
             additions: list of numbers (int or float, positive or negative)"""
     additions = []
