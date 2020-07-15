@@ -3,6 +3,14 @@
 Created on Wed Jul 15 10:59:58 2020
 
 @author: Amanda Aparicio
+@problem_author: Daily Coding Problems (https://www.dailycodingproblem.com/)
+
+Task:
+This problem was recently asked by Google.
+
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+
+For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 """ 
 def make_combos_add(num_list):
     """Takes a list of objects and outputs a list of all possible addition combinations
